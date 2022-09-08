@@ -12,11 +12,6 @@
   align-items: center;
 }
 
-.AppHeader-logo {
-  height: 25px;
-  margin-top: -3px;
-}
-
 .AppHeader-title {
   font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
   font-style: italic;

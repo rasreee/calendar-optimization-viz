@@ -12,15 +12,17 @@ export const CalendarEvents = (props) => {
   // -- when optimization is on, it's an array of objects EVENTS_OPTIMIZED_INFO found in events.js.
   // -- 'id' is the id of the event the optimized time is associated with
 
-  const eventsToRender = props.optimizedTimes ? props.events.map((initialEvent) => {
-    const optimizedTime = props.optimizedTimes.find((time) => time.id === initialEvent.id)
-    
-    if (!optimizedTime) return initialEvent;
+  const eventsToRender = props.optimizedTimes
+    ? props.events.map((initialEvent) => {
+        const optimizedTime = props.optimizedTimes.find((time) => time.id === initialEvent.id);
 
-    const newEvent =  {...initialEvent, ...optimizedTime}
+        if (!optimizedTime) return initialEvent;
 
-    return newEvent
-  }) : props.events
+        const newEvent = { ...initialEvent, ...optimizedTime };
+
+        return newEvent;
+      })
+    : props.events;
 
   return (
     <div className="CalendarEvents">
