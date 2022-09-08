@@ -1,5 +1,9 @@
 # defrag-visualization
 
+A visualization of optimized calendar events using dummy data. Clicking "Toggle Optimization Preview" in the upper left, should result in a visualization like so:
+
+![defrag-demo](./src/assets/defrag-demo.gif)
+
 ## Geting Started
 
 ```sh
@@ -8,7 +12,3 @@ cd [this_repo]/
 yarn install
 yarn start
 ```
-
-A visualization of optimized calendar events using dummy data. Clicking "Toggle Optimization Preview" in the upper left, should result in a visualization like so:
-
-![defrag-demo](./src/assets/defrag-demo.gif)
