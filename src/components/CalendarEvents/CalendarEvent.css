@@ -1,0 +1,16 @@
+.CalendarEvent {
+  position: absolute;
+  font-size: 11px;
+  border-left: 2px solid rgb(4, 82, 50);
+  padding-left: 5px;
+  border-radius: 2px;
+  background-color: rgb(130, 219, 183);
+  color: rgb(4, 82, 50);
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: top 300ms, left 300ms;
+}
+
+.CalendarEvent-title {
+  font-weight: 600;
+}

@@ -1,0 +1,27 @@
+.App {
+}
+
+.App-toolbar {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid lightgrey;
+  background: #eee;
+  margin-bottom: 10px;
+}
+
+.App-toolbar button {
+  margin-right: 10px;
+}
+
+.App-toolbar-previewBadge {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  margin-right: 5px;
+}
+
+.App-toolbar-previewLabel {
+  color: grey;
+  font-size: 12;
+}

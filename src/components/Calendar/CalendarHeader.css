@@ -1,0 +1,11 @@
+.CalendarHeader {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  min-width: 350px;
+}
+
+.CalendarHeader-cell {
+  padding: 5px;
+  text-align: center;
+  color: navy;
+}

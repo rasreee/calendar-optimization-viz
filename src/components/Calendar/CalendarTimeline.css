@@ -1,0 +1,13 @@
+.CalendarTimeline {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.CalendarTimeline-cell {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 12px;
+  color: gray;
+  padding-right: 5px;
+}
