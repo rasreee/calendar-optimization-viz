@@ -1,10 +1,11 @@
 {
-  "name": "defrag-visualization",
-  "version": "0.1.0",
-  "private": true,
+  "name": "calendar-optimization-viz",
+  "version": "1.0.0",
   "scripts": {
-    "start": "react-scripts start",
     "build": "react-scripts build",
+    "start": "react-scripts start",
+    "dev": "yarn clean && yarn start",
+    "clean": "rm -rf ./dist ./tsconfig.tsbuildinfo ./node_modules/.cache",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
